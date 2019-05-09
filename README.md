@@ -1,8 +1,10 @@
-# AVL_JobFair2019_backend
+# AVL JobFair2019 OData backend
 
 This repository containts the initial OData .NET solution which is neccessary for the AVL JobFair 2019 workshop. 
 
 # Requirements
+
+
 
 ## Visual Studio 2019
 
