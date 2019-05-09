@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using AVLCarMeasurementDemo.Models;
+using Microsoft.AspNet.OData.Builder;
+using Microsoft.AspNet.OData.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using Microsoft.OData.Edm;
 
 namespace AVLCarMeasurementDemo
 {
@@ -24,8 +23,21 @@ namespace AVLCarMeasurementDemo
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
-      services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+      services.AddDbContext<CarMeasurementContext>(opt => opt.UseInMemoryDatabase("CarMeasurements"));
+      services.AddOData();
+      services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
     }
+
+    private static IEdmModel GetEdmModel()
+    {
+      ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
+      builder.EntitySet<ChannelType>("ChannelTypes");
+      builder.EntitySet<ChannelChartConfiguration>("ChannelChartConfigurations");
+      builder.EntitySet<Measurement>("Measurements");
+      builder.EntitySet<UnitUnderTest>("UnitUnderTests");
+      return builder.GetEdmModel();
+    }
+
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
     public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -35,7 +47,10 @@ namespace AVLCarMeasurementDemo
         app.UseDeveloperExceptionPage();
       }
 
-      app.UseMvc();
+      app.UseMvc(b =>
+      {
+        b.MapODataServiceRoute("odata", "odata", GetEdmModel());
+      });
     }
   }
 }

@@ -12184,11 +12184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\u19x55\\source\\repos\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo.csproj",
+      "projectUniqueName": "D:\\AVL_JobFair2019_backend\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo.csproj",
       "projectName": "AVLCarMeasurementDemo",
-      "projectPath": "C:\\Users\\u19x55\\source\\repos\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo.csproj",
+      "projectPath": "D:\\AVL_JobFair2019_backend\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo.csproj",
       "packagesPath": "C:\\Users\\u19x55\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\u19x55\\source\\repos\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo\\obj\\",
+      "outputPath": "D:\\AVL_JobFair2019_backend\\AVLCarMeasurementDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
