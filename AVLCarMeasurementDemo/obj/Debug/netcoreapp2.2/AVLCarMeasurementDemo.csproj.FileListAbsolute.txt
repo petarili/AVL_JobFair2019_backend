@@ -1,0 +1,11 @@
+C:\Users\u19x55\source\repos\AVLCarMeasurementDemo\AVLCarMeasurementDemo\bin\Debug\netcoreapp2.2\AVLCarMeasurementDemo.deps.json
+C:\Users\u19x55\source\repos\AVLCarMeasurementDemo\AVLCarMeasurementDemo\bin\Debug\netcoreapp2.2\AVLCarMeasurementDemo.runtimeconfig.json
+C:\Users\u19x55\source\repos\AVLCarMeasurementDemo\AVLCarMeasurementDemo\bin\Debug\netcoreapp2.2\AVLCarMeasurementDemo.runtimeconfig.dev.json
+C:\Users\u19x55\source\repos\AVLCarMeasurementDemo\AVLCarMeasurementDemo\bin\Debug\netcoreapp2.2\AVLCarMeasurementDemo.dll
+C:\Users\u19x55\source\repos\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.2\AVLCarMeasurementDemo.csprojAssemblyReference.cache
+C:\Users\u19x55\source\repos\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.2\AVLCarMeasurementDemo.csproj.CoreCompileInputs.cache
+C:\Users\u19x55\source\repos\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.2\AVLCarMeasurementDemo.RazorAssemblyInfo.cache
+C:\Users\u19x55\source\repos\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.2\AVLCarMeasurementDemo.RazorAssemblyInfo.cs
+C:\Users\u19x55\source\repos\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.2\AVLCarMeasurementDemo.AssemblyInfoInputs.cache
+C:\Users\u19x55\source\repos\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.2\AVLCarMeasurementDemo.AssemblyInfo.cs
+C:\Users\u19x55\source\repos\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.2\AVLCarMeasurementDemo.RazorTargetAssemblyInfo.cache
