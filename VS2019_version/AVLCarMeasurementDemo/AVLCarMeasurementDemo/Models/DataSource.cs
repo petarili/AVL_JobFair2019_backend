@@ -9,9 +9,11 @@ namespace AVLCarMeasurementDemo.Models
     {
         private static IList<Measurement> _measurements { get; set; }
 
+        private static IList<UnitUnderTest> _unitsUnderTest { get; set; }
+
         public static IList<Measurement> GetMeasurements()
         {
-            if(_measurements!=null)
+            if (_measurements != null)
             {
                 return _measurements;
             }
@@ -32,7 +34,7 @@ namespace AVLCarMeasurementDemo.Models
                 Time = 0.5,
                 Value = 10
             });
-            
+
 
             // measurement #2
             _measurements.Add(
@@ -576,5 +578,67 @@ namespace AVLCarMeasurementDemo.Models
 
             return _measurements;
         }
+
+        public static IList<UnitUnderTest> GetUnitsUnderTest()
+        {
+            if (_unitsUnderTest != null)
+            {
+                return _unitsUnderTest;
+            }
+
+            _unitsUnderTest = new List<UnitUnderTest>();
+
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 3,
+                Name = "Renault Clio"
+            });
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 4,
+                Name = "Opel Insignia"
+            });
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 5,
+                Name = "Toyota Corola"
+            });
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 6,
+                Name = "Audi R8"
+            });
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 7,
+                Name = "Audi A6"
+            });
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 8,
+                Name = "Renault Talisman"
+            });
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 9,
+                Name = "Tesla X"
+            });
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 10,
+                Name = "Mazda 6"
+            });
+
+            return _unitsUnderTest; 
+        }
+
     }
 }

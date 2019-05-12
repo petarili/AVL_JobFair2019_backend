@@ -15,7 +15,7 @@ namespace AVLCarMeasurementDemo.Models
 
         public DbSet<ChannelType> ChannelTypes { get; set; }
 
-        public DbSet<UnitUnderTest> UnitUnderTests { get; set; }
+        public DbSet<UnitUnderTest> UnitsUnderTest { get; set; }
 
         public DbSet<ChannelChartConfiguration> ChannelChartConfigurations { get; set; }
 

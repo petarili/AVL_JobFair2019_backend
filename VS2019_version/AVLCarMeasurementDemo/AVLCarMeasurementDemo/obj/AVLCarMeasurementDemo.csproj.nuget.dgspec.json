@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Users\\Development\\source\\repos\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo.csproj": {}
+    "E:\\Users\\Development\\AVL_JobFair2019_backend\\VS2019_version\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo.csproj": {}
   },
   "projects": {
-    "E:\\Users\\Development\\source\\repos\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo.csproj": {
+    "E:\\Users\\Development\\AVL_JobFair2019_backend\\VS2019_version\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\Development\\source\\repos\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo.csproj",
+        "projectUniqueName": "E:\\Users\\Development\\AVL_JobFair2019_backend\\VS2019_version\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo.csproj",
         "projectName": "AVLCarMeasurementDemo",
-        "projectPath": "E:\\Users\\Development\\source\\repos\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo.csproj",
+        "projectPath": "E:\\Users\\Development\\AVL_JobFair2019_backend\\VS2019_version\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo.csproj",
         "packagesPath": "C:\\Users\\Development\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\Development\\source\\repos\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo\\obj\\",
+        "outputPath": "E:\\Users\\Development\\AVL_JobFair2019_backend\\VS2019_version\\AVLCarMeasurementDemo\\AVLCarMeasurementDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.9, )"
             }
           },
           "imports": [

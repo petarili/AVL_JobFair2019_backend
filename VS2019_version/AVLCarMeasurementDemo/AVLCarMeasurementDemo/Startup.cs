@@ -34,7 +34,7 @@ namespace AVLCarMeasurementDemo
             builder.EntitySet<Measurement>("Measurements");
             builder.EntitySet<ChannelType>("ChannelTypes");
             builder.EntitySet<ChannelChartConfiguration>("ChannelChartConfigurations");
-            builder.EntitySet<UnitUnderTest>("UnitUnderTests");
+            builder.EntitySet<UnitUnderTest>("UnitsUnderTest");
             return builder.GetEdmModel();
         }
 

@@ -12,3 +12,17 @@ E:\Users\Development\source\repos\AVLCarMeasurementDemo\AVLCarMeasurementDemo\ob
 E:\Users\Development\source\repos\AVLCarMeasurementDemo\AVLCarMeasurementDemo\bin\Debug\netcoreapp2.1\AVLCarMeasurementDemo.pdb
 E:\Users\Development\source\repos\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.dll
 E:\Users\Development\source\repos\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.pdb
+E:\Users\Development\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\bin\Debug\netcoreapp2.1\AVLCarMeasurementDemo.deps.json
+E:\Users\Development\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\bin\Debug\netcoreapp2.1\AVLCarMeasurementDemo.runtimeconfig.json
+E:\Users\Development\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\bin\Debug\netcoreapp2.1\AVLCarMeasurementDemo.runtimeconfig.dev.json
+E:\Users\Development\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\bin\Debug\netcoreapp2.1\AVLCarMeasurementDemo.dll
+E:\Users\Development\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\bin\Debug\netcoreapp2.1\AVLCarMeasurementDemo.pdb
+E:\Users\Development\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.csprojAssemblyReference.cache
+E:\Users\Development\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.csproj.CoreCompileInputs.cache
+E:\Users\Development\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.RazorAssemblyInfo.cache
+E:\Users\Development\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.RazorAssemblyInfo.cs
+E:\Users\Development\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.AssemblyInfoInputs.cache
+E:\Users\Development\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.AssemblyInfo.cs
+E:\Users\Development\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.RazorTargetAssemblyInfo.cache
+E:\Users\Development\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.dll
+E:\Users\Development\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.pdb
