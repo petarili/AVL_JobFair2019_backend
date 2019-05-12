@@ -6,7 +6,7 @@ This repository containts the initial OData .NET solution which is neccessary fo
 
 
 
-## Visual Studio 2019
+## Visual Studio 2019 (recommended)
  
  .NET Core 2.2 applications require Visual Studio 2017 version 15.9 or higher. 
  
