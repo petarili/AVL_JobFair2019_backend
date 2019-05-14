@@ -33,6 +33,24 @@ This repository containts the initial OData .NET solution which is neccessary fo
  - for Linux: https://dotnet.microsoft.com/download/linux-package-manager/rhel/sdk-current
 
 
-## AVL JobFair 2019 Frontend
+# How to run in Visual Studio 2019/2017
+
+ - download repository
+ - open .sln file and wait for the files to be loaded properly
+ - run IIS Express
+ - you will be set to the default Laboratory initialization page
+ - test if the measurement data can be loaded via Postman request from the collection
+ 
+# How to run in Visual Studio Code
+
+ - download repository
+ - open folder VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo
+ - in terminal type in "dotnet run"
+ - you will be redirected to the localhost:5000
+ - to initialize Laboratory, go to http://localhost:5000/api/laboratory
+ - test if the measurement data can be loaded via Postman request from the collection for VS Code
+ 
+ 
+# AVL JobFair 2019 Frontend
 
  - https://github.com/petarili/AVL_JobFair2019_frontend.git
