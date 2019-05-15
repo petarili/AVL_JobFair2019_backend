@@ -4,11 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using AVLCarMeasurementDemo.Models;
 using Microsoft.AspNet.OData;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AVLCarMeasurementDemo.Controllers
 {
-    public class MeasurementsController : ODataController
+  [EnableCors("AllowOrigin")]
+  public class MeasurementsController : ODataController
     {
         private CarMeasurementContext _db;
 
@@ -24,7 +26,7 @@ namespace AVLCarMeasurementDemo.Controllers
                 context.SaveChanges();
             }
         }
-
+        
         [EnableQuery]
         public IActionResult Get()
         {
