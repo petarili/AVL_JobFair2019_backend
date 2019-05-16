@@ -38,7 +38,6 @@ namespace AVLCarMeasurementDemo
             builder.EntitySet<Measurement>("Measurements");
             builder.EntitySet<ChannelType>("ChannelTypes");
             builder.EntitySet<ChannelChartConfiguration>("ChannelChartConfigurations");
-            builder.EntitySet<UnitUnderTest>("UnitsUnderTest");
             return builder.GetEdmModel();
         }
 
@@ -55,7 +54,8 @@ namespace AVLCarMeasurementDemo
 
             app.UseMvc(b =>
             {
-                b.Select().Expand().Filter().OrderBy().MaxTop(100).Count();
+                //what can our OData query do
+                b.Select().Expand();
                 b.MapODataServiceRoute("odata", "odata", GetEdmModel());
             });
         }
