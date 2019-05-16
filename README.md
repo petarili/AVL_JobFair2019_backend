@@ -32,6 +32,10 @@ This repository containts the initial OData .NET solution which is neccessary fo
  - for MacOS: https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.106-macos-x64-installer
  - for Linux: https://dotnet.microsoft.com/download/linux-package-manager/rhel/sdk-current
 
+## Good literature
+
+ - https://www.odata.org/documentation/odata-version-2-0/uri-conventions/
+
 
 # How to run in Visual Studio 2019/2017
 
@@ -53,4 +57,6 @@ This repository containts the initial OData .NET solution which is neccessary fo
  
 # AVL JobFair 2019 Frontend
 
- - https://github.com/petarili/AVL_JobFair2019_frontend.git
+ - https://github.com/vedran-primorac/avl-job-fair-2019-frontend
+ 
+
