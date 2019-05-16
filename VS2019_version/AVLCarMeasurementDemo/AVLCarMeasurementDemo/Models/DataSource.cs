@@ -587,7 +587,55 @@ namespace AVLCarMeasurementDemo.Models
             }
 
             _unitsUnderTest = new List<UnitUnderTest>();
-      
+
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 3,
+                Name = "Renault Clio"
+            });
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 4,
+                Name = "Opel Insignia"
+            });
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 5,
+                Name = "Toyota Corola"
+            });
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 6,
+                Name = "Audi R8"
+            });
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 7,
+                Name = "Audi A6"
+            });
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 8,
+                Name = "Renault Talisman"
+            });
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 9,
+                Name = "Tesla X"
+            });
+
+            _unitsUnderTest.Add(new UnitUnderTest
+            {
+                ID = 10,
+                Name = "Mazda 6"
+            });
 
             return _unitsUnderTest; 
         }

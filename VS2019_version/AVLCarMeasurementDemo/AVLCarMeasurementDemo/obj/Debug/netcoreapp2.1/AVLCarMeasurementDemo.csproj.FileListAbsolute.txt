@@ -39,3 +39,17 @@ D:\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasuremen
 D:\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.RazorTargetAssemblyInfo.cache
 D:\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.dll
 D:\AVL_JobFair2019_backend\VS2019_version\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.pdb
+C:\Users\Development\Desktop\VS2019_version_solution\AVLCarMeasurementDemo\AVLCarMeasurementDemo\bin\Debug\netcoreapp2.1\AVLCarMeasurementDemo.deps.json
+C:\Users\Development\Desktop\VS2019_version_solution\AVLCarMeasurementDemo\AVLCarMeasurementDemo\bin\Debug\netcoreapp2.1\AVLCarMeasurementDemo.runtimeconfig.json
+C:\Users\Development\Desktop\VS2019_version_solution\AVLCarMeasurementDemo\AVLCarMeasurementDemo\bin\Debug\netcoreapp2.1\AVLCarMeasurementDemo.runtimeconfig.dev.json
+C:\Users\Development\Desktop\VS2019_version_solution\AVLCarMeasurementDemo\AVLCarMeasurementDemo\bin\Debug\netcoreapp2.1\AVLCarMeasurementDemo.dll
+C:\Users\Development\Desktop\VS2019_version_solution\AVLCarMeasurementDemo\AVLCarMeasurementDemo\bin\Debug\netcoreapp2.1\AVLCarMeasurementDemo.pdb
+C:\Users\Development\Desktop\VS2019_version_solution\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.csprojAssemblyReference.cache
+C:\Users\Development\Desktop\VS2019_version_solution\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.csproj.CoreCompileInputs.cache
+C:\Users\Development\Desktop\VS2019_version_solution\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.RazorAssemblyInfo.cache
+C:\Users\Development\Desktop\VS2019_version_solution\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.RazorAssemblyInfo.cs
+C:\Users\Development\Desktop\VS2019_version_solution\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.AssemblyInfoInputs.cache
+C:\Users\Development\Desktop\VS2019_version_solution\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.AssemblyInfo.cs
+C:\Users\Development\Desktop\VS2019_version_solution\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.RazorTargetAssemblyInfo.cache
+C:\Users\Development\Desktop\VS2019_version_solution\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.dll
+C:\Users\Development\Desktop\VS2019_version_solution\AVLCarMeasurementDemo\AVLCarMeasurementDemo\obj\Debug\netcoreapp2.1\AVLCarMeasurementDemo.pdb
