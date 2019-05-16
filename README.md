@@ -57,6 +57,6 @@ This repository containts the initial OData .NET solution which is neccessary fo
  
 # AVL JobFair 2019 Frontend
 
- - https://github.com/petarili/AVL_JobFair2019_frontend.git
+ - https://github.com/vedran-primorac/avl-job-fair-2019-frontend
  
 
