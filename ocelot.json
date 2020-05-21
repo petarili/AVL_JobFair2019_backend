@@ -1,0 +1,88 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/home/headers/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 59555
+        }
+      ],
+      "UpstreamPathTemplate": "/home/headers/",
+      "UpstreamHttpMethod": [
+      ],
+      "UpstreamHeaderTransform": {
+        "X-Real-IP": "{RemoteIpAddress}"
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/auth/{params}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.37.144.13",
+          "Port": 32281
+        }
+      ],
+      "UpstreamPathTemplate": "/auth/{params}",
+      "UpstreamHttpMethod": [
+      ],
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "http://10.37.144.13:32281/auth/{params}",
+        "X-Forwarded-Host": "10.37.144.13",
+        "X-Forwarded-Proto": "http",
+        "X-Forwarded-Port": "32281",
+        "X-Real-IP": "{RemoteIpAddress}"
+      }
+    },
+	{
+      "DownstreamPathTemplate": "/{params}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "www.avl.com",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/avl/{params}",
+      "UpstreamHttpMethod": []
+	},
+	{
+      "DownstreamPathTemplate": "/",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "www.avl.com",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/avl/",
+      "UpstreamHttpMethod": []
+	},
+    {
+      "DownstreamPathTemplate": "/auth/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "10.37.144.13",
+          "Port": 32281
+        }
+      ],
+      "UpstreamPathTemplate": "/auth/",
+      "UpstreamHttpMethod": [
+      ],
+      "UpstreamHeaderTransform": {
+        "X-Forwarded-For": "http://10.37.144.13:32281/auth/{params}",
+        "X-Forwarded-Host": "10.37.144.13",
+        "X-Forwarded-Proto": "http",
+        "X-Forwarded-Port": "32281",
+        "X-Real-IP": "{RemoteIpAddress}"
+      },
+	  "AuthenticationOptions": {
+		"AuthenticationProviderKey": "AuthKey",
+		"AllowedScopes": []
+	  }
+    }
+  ]
+}
